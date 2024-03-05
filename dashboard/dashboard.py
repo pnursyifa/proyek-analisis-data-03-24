@@ -37,7 +37,7 @@ def create_seller_performance_df(df):
     return seller_performance_df
 
 # load data
-all_df = pd.read_csv("../data/all_data.csv")
+all_df = pd.read_csv("all_data.csv")
 
 # agar bisa difilter -> set up datetime
 datetime_columns = ["order_purchase_timestamp"]
